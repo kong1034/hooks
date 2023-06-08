@@ -4,8 +4,9 @@ import { Contents } from './components/Contents/Contents';
 import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 import { darkContext } from './context/darkContext';
-import { TodoState, listContext } from './context/listContext';
+import { listContext } from './context/listContext';
 import { reducer } from './reducer/reducer';
+import { TodoState } from './interface/TodoState';
 
 const initState: TodoState = {
   todos: [
